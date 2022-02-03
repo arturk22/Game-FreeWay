@@ -15,7 +15,7 @@ function movimentaAtor(){
     if (keyIsDown(DOWN_ARROW)){
       yAtor += 3;
     }
-}
+  }
 } 
   function verificaColisao(){
   //collideRectCircle(x1, y1, width1, height1, cx, cy, diameter)
@@ -28,7 +28,7 @@ function movimentaAtor(){
       meusPontos -= 1;
     }
     }
-  }
+  } 
 }
 
 function colidiu(){
